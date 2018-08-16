@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url('./images/burger1.png');
+    background-size: 158px;
+    background-repeat: space;
+    font-size: 22px;
+}
+
+h1 {
+    min-height: 20%;
+    background: lightgoldenrodyellow url('./images/burger2.png');
+    border: 10px solid darkgrey;
+    text-align: center;
+}
+
+form {
+    min-height: 20%;
+    background: lightgoldenrodyellow;
+    border: 10px solid darkgrey;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 20px);
+}
+
+.burger {
+    width: 50%;
+    height: 60%;
+    display: inline-block;
+    background: #add8e65e;
+}
+
+.devoured {
+    width: 50%;
+    height: 60%;
+    display: inline-block;
+    background: #f0808066;
+}
+
